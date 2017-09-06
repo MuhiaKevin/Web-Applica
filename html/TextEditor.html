@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor</title>
+	<link rel="stylesheet" type="text/css" href="../css/texteditor.css">
+</head>
+<body>
+ 	<div id="editor">
+ 		<div id="controls">
+ 			<input type="file" id="fileloader">
+ 			<input type="button"  name="save" value="Save File" onclick="saveFile()">
+			<input type="button" id="paste" value="copy to editor" >
+			<input type="button" id="copy" value="copy to clipboard" >
+ 		</div>
+
+ 		<textarea id="mytext"></textarea>
+	</div>
+
+	<script type="text/javascript" src="../js/TextEditor.js"></script>
+	<script type="text/javascript" src="../js/clipboard.js"></script>
+</body>
+</html>
